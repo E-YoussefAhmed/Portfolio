@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { getTestimonials } from "@/lib/data/testimonials";
-import TestimonialsCard from "@/components/shared/testimonials-card";
+import TestimonialsCard from "@/components/section/testimonials/testimonials-card";
 
 export const metadata: Metadata = {
   title: "Testimonials",
