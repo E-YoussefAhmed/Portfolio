@@ -145,11 +145,11 @@ export const skills = [
 
 export const socials = [
   {
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/profile.php?id=100011448804193",
     Icon: FaFacebookF,
   },
   {
-    link: "https://wa.me/+201069036485",
+    link: "https://wa.me/+201277185263",
     Icon: FaWhatsapp,
   },
   {
