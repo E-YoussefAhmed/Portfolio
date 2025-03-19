@@ -11,10 +11,10 @@ export const getWorks = async (tag?: string) => {
     await connectToDatabase();
 
     if (tag) {
-      const works = await Work.find({ tags: tag });
+      const works = (await Work.find({ tags: tag })).toReversed();
       return JSON.parse(JSON.stringify(works));
     } else {
-      const works = await Work.find();
+      const works = (await Work.find()).toReversed();
       return JSON.parse(JSON.stringify(works));
     }
   } catch (error) {
