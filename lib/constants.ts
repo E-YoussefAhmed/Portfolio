@@ -37,25 +37,25 @@ export const abouts = [
   {
     title: "Next.JS",
     description:
-      "We have great experience in all Next.JS 14 features as app router, server actions, server components... , and much more.",
+      "I have great experience in all Next.JS 15 features as app router, server actions, server components... , and much more.",
     image: "/about/next.svg",
   },
   {
     title: "Frontend",
     description:
-      "We have great experience building websites using React.JS as our frontend library and a lot of its helper libraries.",
+      "I have great experience building websites using React.JS as frontend library and I have the ability to learn and use any of its helper frontend libraries.",
     image: "/about/react.svg",
   },
   {
     title: "Backend",
     description:
-      "We use Express.JS as our backend framework to build APIs implementing auth using JWT, middleware, and much more.",
+      "I use Express.JS as backend framework to build APIs implementing auth using JWT, middleware, and much more.",
     image: "/about/Express.js_dark.svg",
   },
   {
     title: "Full Stack",
     description:
-      "We can build your full stack applications using MERN stack or using our main full stack framework Next.JS.",
+      "I can build any full stack applications using MERN stack or using full stack framework like Next.JS.",
     image: "/about/mern.avif",
   },
 ];
